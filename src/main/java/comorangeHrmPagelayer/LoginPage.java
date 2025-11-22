@@ -43,8 +43,7 @@ public class LoginPage
 	
 	public void enterpassword(String password)
 	{
-		/*WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20)) ;
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password_txt_box")));*/
+		
 		password_txtbox.sendKeys(password);
 	}
 	
